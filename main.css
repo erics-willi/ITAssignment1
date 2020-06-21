@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('src/font/eot/BebasNeue-Regular.eot');
+    src: url('src/font/otf/BebasNeue-Regular.otf') format("opentype"),
+         url('src/font/woff/BebasNeue-Regular.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'Monsterrat';
+    src: url('src/font/monsterrat/Monsterrat-Light.otf') format("opentype");
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    word-wrap: break-word;
+    background-image: url('src/img/background.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+    font-size-adjust: 1.3;
+    text-align: center;
+    font-style: normal;
+    color: 2A324B;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+p {
+    font-family: 'Monsterrat';
+    font-size: 18;
+    color: 474448;
+    margin-top: 2px;
+    padding: 0;
+    margin: 0;
+    opacity: 100%;
+}
+
+.main {
+    width: 45%;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 1px dotted;
+    border-color: 767B91;
+    background-color: F5F5F5;
+    opacity: 95%;
+}
+
+.row {
+    display: flex;
+    word-break: break-word;
+}
+
+.column1 {
+    flex: 30%;
+    padding: 2%;
+    text-align: center;
+}
+
+.column2 {
+    flex: 70%;
+    padding: 2%;
+}
+
+.reference {
+    font-size: 14;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 5px dotted #ddd;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraph {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    font-size: 15;
+}
+
+.right {
+    float:right;
+    width: 35%;  
+}
+
+.left {
+    float:left;
+    width: 35%;
+}
+
+.right2 {
+    float:right;
+    width: 75%;  
+}
+feature {
+    width: 30%;
+}
+
+details {
+    width: 70%;
+}
+
+th {
+    text-align: left;
+}
+
+.shade {
+    background-color: lightgray;
+}
